@@ -1,0 +1,16 @@
+{
+    "name": "heilmann/jh-photoswipe",
+    "type": "typo3-cms-extension",
+    "description": "Adds the wonderful Photoswipe (http://photoswipe.com/) JavaScript gallery as a plugin to TYPO3 CMS.",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Heilmann\\JhPhotoswipe\\": "Classes/"
+        }
+    },
+    "replace": {
+        "heilmann/jh_photoswipe": "self.version"
+    }
+}
